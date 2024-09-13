@@ -1,4 +1,5 @@
 # Sample workflow for building and deploying a mdBook site to GitHub Pages
+# Copied from https://github.com/actions/starter-workflows/blob/main/pages/mdbook.yml
 #
 # To get started with mdBook see: https://rust-lang.github.io/mdBook/index.html
 #
