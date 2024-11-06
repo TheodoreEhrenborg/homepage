@@ -1,4 +1,3 @@
-# Sample workflow for building and deploying a mdBook site to GitHub Pages
 # Copied from https://github.com/actions/starter-workflows/blob/main/pages/mdbook.yml
 #
 # To get started with mdBook see: https://rust-lang.github.io/mdBook/index.html
@@ -37,15 +36,20 @@ jobs:
         run: |
           mkdir bin
           curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.40/mdbook-v0.4.40-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
+      - name: Install mdbook-admonish
+        run: |
+          curl -sSL https://github.com/tommilligan/mdbook-admonish/releases/download/v1.18.0/mdbook-admonish-v1.18.0-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Run mdbook-admonish to make CSS
+        run: cd docs && PATH=$PATH:../bin mdbook-admonish install
       - name: Build with mdBook
-        run: bin/mdbook build
+        run: cd docs && PATH=$PATH:../bin mdbook build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./book
+          path: ./docs/book
 
   # Deployment job
   deploy:
