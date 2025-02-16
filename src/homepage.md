@@ -1,6 +1,6 @@
 # Homepage
 
-Hi, I’m Theodore. I’m a machine learning engineer.
+Hi, I’m Theodore. I’m an AI Safety research fellow.
 
 <figure>
   <img src=assets/IMG_6210.jpeg alt=""/>
