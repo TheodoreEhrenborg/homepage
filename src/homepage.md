@@ -1,6 +1,6 @@
 # Homepage
 
-Hi, I’m Theodore. I’m an AI Safety research fellow.
+Hi, I’m Theodore. I’m an AI Safety researcher at the [Beneficial AI Foundation](https://www.beneficialaifoundation.org).
 
 <figure>
   <img src=assets/IMG_6210.jpeg alt=""/>
