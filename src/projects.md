@@ -1,6 +1,7 @@
 # Projects
 
 - I discovered a [symlink exploit](https://theodoreehrenborg.substack.com/p/symlink-exploit-in-vastai) in Vast.ai and was awarded a bug bounty
+- [A benchmark for vericoding: formally verified program synthesis](https://arxiv.org/abs/2509.22908): I was second author on this paper from the Beneficial AI Foundation. See my code contributions [here](https://github.com/Beneficial-AI-Foundation/vericoding/pulls?q=author%3ATheodoreEhrenborg\+)
 - [tiny_stories_sae](https://sae.ehrenborg.dev/): Trains a sparse autoencoder on a 33 million parameter language model
 - [tiny_stories_rl](https://rl.ehrenborg.dev/): Uses reinforcement learning to encourage `roneneldan/TinyStories-33M` to generate stories with alliteration
 - [Looking for feature absorption automatically](https://www.lesswrong.com/posts/z7iyek97dAeQMxdSd/looking-for-feature-absorption-automatically): My project from when I was at [Pivotal Research](https://www.pivotal-research.org/)
