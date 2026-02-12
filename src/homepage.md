@@ -1,6 +1,6 @@
 # Homepage
 
-Hi, I’m Theodore. I’m an AI Safety researcher at the [Beneficial AI Foundation](https://www.beneficialaifoundation.org) and [PIBBSS](https://princint.ai).
+Hi, I’m Theodore. I’m a Junior Research Engineer at [Apollo Research](https://www.apolloresearch.ai/).
 
 <figure>
   <img src=assets/IMG_6210.jpeg alt=""/>
